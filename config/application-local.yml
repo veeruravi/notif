@@ -1,0 +1,12 @@
+server:
+  port: 9000
+
+log:
+  level: DEBUG
+
+db:
+  type : mysql
+  url: root:@(127.0.0.1:3306)/notifications?parseTime=true
+  maxConnections: 10
+  maxIdleConnections: 5
+  maxConnectionLifetime: 3600
